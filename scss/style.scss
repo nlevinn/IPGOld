@@ -1,0 +1,10 @@
+.container {
+    max-width: 1200px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/special';
+@import 'blocks/cart';
