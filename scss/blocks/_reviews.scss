@@ -1,0 +1,47 @@
+.reviews .__item .name p:first-child {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.reviews .__item .name p:last-child {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+
+.reviews .__item .__descr {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.reviews .__item {
+    background: rgba(246, 202, 71, 0.05);
+    border-radius: 7px;
+    max-width: 585px;
+    margin-bottom: 30px;
+    padding: 19px 12px 28px 17px;
+}
+
+
+.reviews .special__title {
+    margin-bottom: 60px;
+}
+
+.btn-reviews .btn {
+    max-width: 380px;
+    padding: 18px 91px;
+}

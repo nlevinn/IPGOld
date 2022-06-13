@@ -4,7 +4,15 @@
     padding-left: 0px;
 }
 
+img {
+    max-width: 100%
+}
+
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/special';
 @import 'blocks/cart';
+@import 'blocks/services';
+@import 'blocks/video';
+@import 'blocks/reviews';
+@import 'blocks/blog';

@@ -1,0 +1,50 @@
+.blog .card {
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 61px;
+}
+
+.blog {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.blog .card .card-body {
+    padding-left: 0px;
+}
+
+.blog .card img{
+    border-radius: 7px;
+}
+
+.blog .card .card-body h5 {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.blog .card .card-body .card-text {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.blog .card .card-body .btn {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.8;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    padding: 17px 93px;
+}
