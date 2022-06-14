@@ -1,5 +1,7 @@
 header {
     background: #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .navbar {
@@ -10,12 +12,17 @@ header {
 }
 
 .nav-link  {
-    font-family: 'Inter';
+
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
+
+}
+
+li {
+    list-style: none;
 }
 
 .nav-link:focus, .nav-link:hover {
@@ -25,14 +32,14 @@ header {
 .btn-primary {
     border: 1px solid #F7D04C;
     border-radius: 7px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
     color: #F7D04C;
     background: none;
-    padding: 17px 39px 15px 39px;
+    padding: 15px 39px 15px 39px;
+    max-width: 180px;
 }
 
 .btn-primary:hover {
@@ -46,7 +53,6 @@ header {
 }
 
 .btn_two {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -57,6 +63,7 @@ header {
     padding: 17px 45px 15px 45px;
     border: none;
     margin-left: 18px;
+    max-width: 137px;
 }
 
 .dropdown {
@@ -67,6 +74,166 @@ header {
     align-items: center;
 }
 
-.navbar-nav {
-    margin-left: 66px;
+.nav-link_submenu {
+    position: relative;
 }
+
+
+.submenu {
+    -webkit-transform: scaleY(0);
+	-ms-transform: scaleY(0);
+	transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+    background: #F6CA47;
+    border-radius: 10px;
+  position: absolute;
+  top: 67px;
+  left: -47%;
+  width: 426px;
+  z-index: 10;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  padding: 58px 0 44px 32px;
+}
+
+.nav-link_submenu:hover .submenu{
+    -webkit-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	transform: scaleY(1);
+}
+
+.submenu li a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 19px;
+}
+
+
+.submenu li {
+    margin-bottom: 13px;
+}
+
+.submenu li:hover {
+    a {
+        font-weight: 700;
+        border-bottom: 1px #FF992B solid;
+        padding-bottom: 5px;
+    }
+}
+
+.submenu li:nth-child(3) {
+    margin-bottom: 34px;
+}
+
+header .__item {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.logo_promo {
+    max-width: 131px;
+}
+
+
+.drop_down a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    img {
+        margin-right: 10px;
+    }
+}
+
+
+.drop_down  .submenu {
+  top: 38px;
+    left: -16%;
+    width: 81px;
+  padding: 24px 0px 30px 0px;
+}
+
+
+.drop_down .submenu li:hover {
+    a {
+        font-weight: 500;
+        background: #FF992B;
+
+
+    }
+}
+
+
+.drop_down .submenu li a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 11px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.drop_down .__item>li:before {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 13%;
+    width: 10px;
+    height: 32px;
+    -webkit-transform: translate(-50%, 20px);
+    transform: translate(-50%, 20px);
+    opacity: 0;
+    -webkit-transition: .2s;
+    transition: .2s;
+    left: 34px;
+    bottom: -12px;
+    border: 17px solid transparent;
+    border-bottom: 24px solid #F6CA47;
+}
+
+
+  .nav-ul_submenu>li:before {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 76%;
+    width: 10px;
+    height: 32px;
+    -webkit-transform: translate(-50%, 20px);
+    transform: translate(-50%, 20px);
+    opacity: 0;
+    -webkit-transition: .2s;
+    transition: .2s;
+    left: 88px;
+    bottom: -12px;
+    border: 17px solid transparent;
+    border-bottom: 24px solid #F6CA47;
+}
+
+  .nav-ul_submenu li:hover:before {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  .drop_down .__item li:hover:before {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+
+

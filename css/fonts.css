@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'InterBold';
+	src: url('fonts/InterBold.eot');
+	src: local('☺'),
+     url('fonts/InterBold.woff') format('woff'), 
+    url('fonts/InterBold.ttf') format('truetype'), 
+    url('fonts/InterBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('fonts/InterRegular.eot');
+	src: local('☺'), 
+    url('fonts/InterRegular.woff') format('woff'),
+     url('fonts/InterRegular.ttf') format('truetype'), 
+     url('fonts/InterRegular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
