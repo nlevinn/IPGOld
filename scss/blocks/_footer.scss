@@ -1,0 +1,110 @@
+footer {
+    border-top: 1px rgba(#000000, 0.2) solid ;
+    margin-top: 23px;
+    padding-top: 15px;
+    padding-bottom: 31px;
+}
+
+.footer_logo {
+    max-width: 131px;
+    margin-bottom: 40px;
+}
+
+.icon_social ._item a{
+    margin-right: 24px;
+    margin-bottom: 19px;
+}
+
+.download {
+    margin-top: 50px;
+}
+
+.download a {
+    background: #F6CA47;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    padding: 13px 23px 13px 12px;
+    img {
+        margin-right: 21px;
+    }
+}
+
+._item-title ._title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.nav .wrapper {
+    padding-left: 0px;
+}
+
+.nav .wrapper ._item a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav .wrapper ._item {
+    margin-bottom: 5px;
+}
+
+.nav .wrapper ._item:first-child {
+    margin-bottom: 5px;
+}
+
+.help {
+    background: #F6CA47;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    padding: 11px 32px;
+    img {
+        margin-right: 6px;
+    }
+}
+
+.footer .wrapper ._items {
+    margin-top: 50px;
+    img {
+        margin-right: 12px;
+        margin-bottom: 17px;
+    }
+}
+
+.footer .wrapper ._items img:nth-child(4){
+margin-right: 0px;
+}
+
+.footer .wrapper {
+    max-width: 253px;
+}
+
+.footer_margin {
+    margin-top: 16px;
+}
+
+.items_menu {
+    margin-left: 50px;
+}

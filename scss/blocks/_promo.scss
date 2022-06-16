@@ -3,12 +3,45 @@
 }
 
 .promo__wrapper {
-    background: url(../../img/frame_promo.jpg) no-repeat center;
+    background: #F7D04C;
     max-width: 1350px;
     height: 472px;
     border-radius: 13px;
     display: block;
     margin: 0 auto;
+    position: relative;
+}
+
+.promo__wrapper::before {
+    content: '';
+    position: absolute;
+    background-image: -webkit-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 16px 15px;
+    width:130px;
+    height: 98px;
+    bottom: 0px;
+    left: 5%;
+}
+
+.promo__wrapper::after {
+    content: '';
+    position: absolute;
+    background-image: -webkit-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 16px 15px;
+    width:63px;
+    height: 62px;
+    top: 3px;
+    right: 5px;
 }
 
 .promo__wrapper .wrapper {
@@ -17,10 +50,10 @@
 
 .video_promo {
     max-width: 462px;
+    border-radius: 7px;
 }
 
 .wrapper .title {
-    font-family: 'Commissioner';
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
@@ -29,7 +62,6 @@
     max-width: 620px;
 }
 .wrapper .__descr p {
-    font-family: 'Commissioner';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -37,6 +69,8 @@
     text-align: justify;
     color: #000000;
 }
+
+
 
 .promo__descr {
     background: rgba(217, 217, 217, 0.1);

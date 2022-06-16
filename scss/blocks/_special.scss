@@ -23,27 +23,32 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 7px;
     max-width: 277px;
-    padding: 19px 38px 53px 32px;
+    padding: 19px 20px 24px 20px;
     position: relative;
+}
+
+.special__item:hover p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    transition:.5s linear;
 }
 
 .special__item::after{
     content: '';
     position: absolute;
-    width: 277px;
-    height: 293px;
+    width: 0;
+    height: 0;
     border-radius: 7px;
     background:rgba(246, 202, 71, 0.9); 
-    top: -294px;
+    top: 0px;
     left: 277px;
-    display: none;
+    display: block;
+    transition:.5s linear;
 }
 
-.special__item:hover {
-                 p {
-                    color: #000000;
-                 }
-}
 
 
 .special__item:hover::after {
@@ -53,12 +58,14 @@
                  left: 0px;
                  display: block;
                  transform: translate(0px,0px);
+                 width: 100%;
+                 height: 100%;
 }
 
 .special__item:hover:before{
-    border-color: rgba(246, 202, 71, 0.9) rgba(246, 202, 71, 0.9) rgba(246, 202, 71, 0.9) rgba(246, 202, 71, 0.9);
+    border-color: rgba(246, 202, 71, 0.1) rgba(246, 202, 71, 0.1) rgba(246, 202, 71, 0.1) rgba(246, 202, 71, 0.1);
             animation: bounce-nds 0.1s linear;
-            transition: .1s linear;
+            transition: .5s linear;
     animation-fill-mode:  forwards;
 
 }
@@ -75,9 +82,171 @@
        -moz-transition: border-color .2s ease-in-out;
             transition: border-color .2s ease-in-out;
     border-radius: 0px 7px 0px 0px;
-    /* Firefox 3.0 damage limitation */
     display: block;
     width: 0;
+}
+
+.special__item:nth-child(2):before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 30px 30px 0;
+    border-style: solid;
+    border-color: rgba(#4848FF, 0.9) rgba(#4848FF, 0.9) #fff #fff;
+    -webkit-transition: border-color .2s ease-in-out;
+       -moz-transition: border-color .2s ease-in-out;
+            transition: border-color .2s ease-in-out;
+    border-radius: 0px 7px 0px 0px;
+    display: block;
+    width: 0;
+}
+.special__item:hover:nth-child(2)::before{
+    border-color: rgba(#4848FF, 0.1) rgba(#4848FF, 0.1) #fff #fff;
+            animation: bounce-nds 0.1s linear;
+            transition: .5s linear;
+    animation-fill-mode:  forwards;
+
+}
+
+.special__item:nth-child(2):after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 7px;
+    background:rgba(#4848FF, 0.9); 
+    top: 0px;
+    left: 277px;
+    display: block;
+    transition:.5s linear;
+}
+
+
+
+.special__item:hover:nth-child(2):after {
+    background:rgba(#4848FF, 0.9); 
+    transition:.5s linear;
+                 top: 0px;
+                 left: 0px;
+                 display: block;
+                 transform: translate(0px,0px);
+                 width: 100%;
+                 height: 100%;
+}
+.special__item:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 30px 30px 0;
+    border-style: solid;
+    border-color: rgba(#E84762, 0.9) rgba(#E84762, 0.9) #fff #fff;
+    -webkit-transition: border-color .2s ease-in-out;
+       -moz-transition: border-color .2s ease-in-out;
+            transition: border-color .2s ease-in-out;
+    border-radius: 0px 7px 0px 0px;
+    display: block;
+    width: 0;
+}
+.special__item:hover:nth-child(3)::before{
+    border-color: rgba(#E84762, 0.1) rgba(#E84762, 0.1) #fff #fff;
+            animation: bounce-nds 0.1s linear;
+            transition: .5s linear;
+    animation-fill-mode:  forwards;
+
+}
+
+.special__item:nth-child(3):after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 7px;
+    background:rgba(#E84762, 0.9); 
+    top: 0px;
+    left: 277px;
+    display: block;
+    transition:.5s linear;
+}
+
+
+
+.special__item:hover:nth-child(3):after {
+    background:rgba(#E84762, 0.9); 
+    transition:.5s linear;
+                 top: 0px;
+                 left: 0px;
+                 display: block;
+                 transform: translate(0px,0px);
+                 width: 100%;
+                 height: 100%;
+}
+
+.special__item:nth-child(4):before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 30px 30px 0;
+    border-style: solid;
+    border-color: rgba(34, 44, 71, 0.9) rgba(34, 44, 71, 0.9) #fff #fff;
+    -webkit-transition: border-color .2s ease-in-out;
+       -moz-transition: border-color .2s ease-in-out;
+            transition: border-color .2s ease-in-out;
+    border-radius: 0px 7px 0px 0px;
+    display: block;
+    width: 0;
+}
+
+.special__item:hover:nth-child(4)::before{
+    border-color: rgba(34, 44, 71, 0.1) rgba(34, 44, 71, 0.1) #fff #fff;
+            animation: bounce-nds 0.1s linear;
+            transition: .5s linear;
+    animation-fill-mode:  forwards;
+
+}
+
+.special__item:nth-child(4):after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 7px;
+    background:rgba(34, 44, 71, 0.9); 
+    top: 0px;
+    left: 277px;
+    display: block;
+    transition:.5s linear;
+}
+
+
+
+.special__item:hover:nth-child(4):after {
+    background:rgba(34, 44, 71, 0.9); 
+    transition:.5s linear;
+                 top: 0px;
+                 left: 0px;
+                 display: block;
+                 transform: translate(0px,0px);
+                 width: 100%;
+                 height: 100%;
+}
+
+.special__item:hover:nth-child(4) {
+    h4 {
+        color: #fff;
+        transition:.5s linear;
+    }
+    p {
+        color: #fff;
+    }
+}
+
+.special__item:nth-child(4):hover img{
+    transition:.5s linear;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 .special__item h4 {
@@ -88,6 +257,8 @@
     line-height: 22px;
     color: #000000;
     margin-top: 33px;
+    position: relative;
+    z-index: 1;
 }
 
 .special__item p {
@@ -97,5 +268,17 @@
     font-size: 14px;
     line-height: 17px;
     color: #A0A0A0;
-    margin-top: 27px;
+    margin-top: 17px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.special_icons img {
+    position: relative;
+    z-index: 1;
+}
+
+.special__wrapper {
+    margin-top: 60px;
 }

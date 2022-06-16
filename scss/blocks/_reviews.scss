@@ -43,5 +43,21 @@
 
 .btn-reviews .btn {
     max-width: 380px;
-    padding: 18px 91px;
+    padding: 16px 86px;
+    background: #F6CA47;
+    border: 1px solid #000000;
+    border-radius: 3px;
 }
+
+.stars img {
+    margin-left: 10px;
+}
+
+.stars img:first-child {
+    margin-left: 0px;
+}
+
+.special__title p span {
+     margin-left: 15px;
+}
+
