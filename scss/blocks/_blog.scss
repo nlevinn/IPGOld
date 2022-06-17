@@ -52,3 +52,83 @@
     max-width: 278px;
     margin-top: 20px;
 }
+
+
+.blog_btn {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4A4D61;
+    max-width: 100%;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: none;
+    position: relative;
+}
+
+
+.blog_btn::before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    border: 2px #4A4D61 solid;
+    left: 39.2%;
+}
+
+.blog_btn::after {
+    content: '';
+    position: absolute;
+    width: 27px;
+    height: 21px;
+    border-right: 4px #4A4D61 solid;
+    left: 38%;
+}
+
+.btn__item {
+    margin-top: 36px;
+    margin-bottom: 57px;
+}
+
+.btn__item_blog {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    margin-right: 20px;
+}
+
+.btn__item_blog:nth-child(1) {
+    background: #E95348;
+    padding: 9px 24px;
+}
+
+.btn__item_blog:nth-child(2) {
+    background: #F28A1A;
+    padding: 9px 24px;
+}
+
+.btn__item_blog:nth-child(3) {
+    background: #697EF9;
+    padding: 9px 24px;
+}
+
+.btn__item_blog:nth-child(4) {
+    background: rgba(246, 202, 71, 0.9);
+    padding: 9px 21px;
+}
+
+.btn__item_blog:nth-child(5) {
+    background: #3C4043;
+    padding: 9px 27px;
+}
+
+.blog .card .card-body .btn_next_blog {
+    border: 1px solid #F6CA47;
+}

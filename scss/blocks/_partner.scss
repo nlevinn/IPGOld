@@ -1,0 +1,61 @@
+.partner {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    &_title {
+        h1 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 42px;
+            text-align: center;
+            color: #08193A;
+            margin-bottom: 30px;
+        }
+    }
+    &_descr {
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: justify;
+            color: #000000;
+            margin-bottom: 40px;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+    &_subtitle {
+        max-width: 452px;
+        display: block;
+        margin: 70px auto;
+        h2 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+    &_btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        background: rgba($color: #F6CA47, $alpha: 0.8);
+        border: 1px solid #000000;
+        border-radius: 7px;
+        padding: 19px 28px;
+        margin-top: 18px;
+    }
+    &_img {
+        width: 277px;
+        height: 388px;
+    }
+    &_item {
+        margin-bottom: 76px;
+    }
+}

@@ -208,7 +208,7 @@ header .__item {
 }
 
 
-  .nav-ul_submenu>li:before {
+  .nav-ul_submenu>.nav-link_submenu:before {
     content: "";
     position: absolute;
     z-index: 5;
