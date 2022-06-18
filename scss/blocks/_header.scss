@@ -237,3 +237,11 @@ header .__item {
   }
 
 
+.nav-link_submenu .lang_arrow::before {
+    position: absolute;
+    content: '';
+    background: url(../../icons/arrow.svg) no-repeat;
+    width: 9px;
+    height: 9px;
+    left: 120%;
+}

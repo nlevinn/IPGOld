@@ -154,7 +154,8 @@
             }
         }
         &_checkbox {
-            margin-top: 94px;
+            margin-top: 145px;
+            margin-left: 18px;
         }
     }
 }
@@ -169,8 +170,78 @@ input[type="checkbox" i] {
     height: 24px;
     border: 1px solid #F6CA47;
     cursor: pointer;
-    background-color: white;
+    background-color: #F6CA47;
+    margin-right: 21px;
 }
+.styled-checkbox {
+    position: absolute;
+    opacity: 0;
+   
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+    }
+   
+    & + label:before {
+      content: '';
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 20px;
+      height: 20px;
+      width: 24px;
+    height: 24px;
+    border: 1px solid #F6CA47;
+    cursor: pointer;
+    }
+   
+    &:hover + label:before {
+      background: white;
+    }
+    
+   
+    &:checked + label:before {
+        background: white;
+    }
+    
+    &:disabled + label {
+      color: #b8b8b8;
+      cursor: auto;
+    }
+   
+    &:disabled + label:before {
+      box-shadow: none;
+      background: #ddd;
+    }
+   
+    &:checked + label:after {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 12px;
+      background: black;
+      width: 2px;
+      height: 2px;
+      box-shadow: 
+        2px 0 0 black,
+        4px 0 0 black,
+        4px -2px 0 black,
+        4px -4px 0 black,
+        4px -6px 0 black,
+        4px -8px 0 black;
+        
+      transform: rotate(45deg);
+    }
+  }
+   
+   
+  .unstyled {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+   
 
 .vr {
     background: rgba(246, 202, 71, 0.2);
@@ -188,3 +259,28 @@ input[type="checkbox" i] {
 .reviews__next {
     margin-top: 69px;
 }
+
+
+  .rating_block input[type="radio"] {
+    display: none;
+  }
+  .label_rating {
+    float: right;
+    display: block;
+    width: 35px;
+    height: 37px;
+    background: url(../../icons/stars_two.svg) no-repeat 50% 0;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .rating_block .label_rating:hover,
+  .rating_block .label_rating:hover ~ .label_rating,
+  .rating_block input[type="radio"]:checked ~ .label_rating
+  {
+    display: block;
+    background: url(../../icons/stars.svg) no-repeat ;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+  }
