@@ -99,7 +99,12 @@
                 </div>
                 <label class="switch">
                     <input type="checkbox" checked>
-                    <span class="slider round"></span>
+                    <span class="slider round">
+                        <span class="checkbox-ya-feature" data-label-on="Хочу заработать" data-label-off="Я рекламодатель"> 
+                    </span>
+                    
+
+                    </span>
                   </label>
                 <input type="text" class="modal_form__input modal_form__input-registr" placeholder="Реферал (кто вас пригласил)">
                 <div class="modal_form__items">
@@ -119,18 +124,23 @@
   <div class="modal fade" id="exampleModalCart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal_items">
       <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal_subtitle" id="exampleModalLabelCart">Разрешить получение оплачиваемых писем на ваш e-mail</h5>
+        <div class="modal-header modal-header_cart">
+            <h5 class="modal_subtitle " id="exampleModalLabelCart">Разрешить получение оплачиваемых писем на ваш e-mail</h5>
           </div>
           <div class="modal-body">
-              <form action="#" class="modal_form modal_form_registr d-flex flex-column align-items-lg-stretch">
+              <form action="#" class="modal_form modal_form_cart modal_form_registr d-flex flex-column align-items-lg-stretch">
                 <label class="switch switch_cart">
                     <input type="checkbox" checked>
-                    <span class="slider slider_email round round_email"></span>
+                    <span class="slider slider_email slider_yesNo round round_yesNo round_email">
+                        <span class="checkbox-ya-feature" data-label-on="Да" data-label-off="Нет"> 
+
+                        </span>
+                    </span>
+                    <span class="yes_no"></span>
                   </label>
                   <h5 class="modal_subtitle">Введите свои платежные реквизиты:</h5>
                 <input type="text" class="modal_form__input  modal_form__input-registr modal_form__input_cart" placeholder="WMZ кошелек">
-                <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="ЮMoney (Яндекс Деньги">
+                <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="ЮMoney (Яндекс Деньги)">
                 <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="+7 (961) 501-501-1">
                 <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="Номер счета Payeer">
                   <div class="modal_descr">
@@ -139,21 +149,21 @@
                     </p>
                   </div>
                   <h5 class="modal_subtitle" >Вывод средств напрямую на счет мобильного телефона (по желанию):</h5>
-                  <div class="select_wrapper">
-                    <select name="" id="" class="form_select" data-custom-select-class="select">
-                        <option class="form_option" value="" disabled selected hidden>Услуга</option>
-                        <option class="form_option" value="">Накрутка в Telegram</option>
-                        <option class="form_option" value="">Накрутка в Яндекс Дзен</option>
-                        <option class="form_option" value="">Накрутка в Facebook</option>
-                        <option class="form_option" value="">Накрутка в YouTube</option>
-                        <option class="form_option" value="">Накрутка в Twitter</option>
+                  <div class="select_wrapper select_wrapper_cart">
+                    <select name="" id="" class="form_select form_select_cart" data-custom-select-class="select">
+                        <option class="form_option form_option_cart" value="" disabled selected hidden>Провайдер</option>
+                        <option class="form_option form_option_cart" value="">MTC</option>
+                        <option class="form_option form_option_cart" value="">Мегафон</option>
+                        <option class="form_option form_option_cart" value="">Теле2</option>
+                        <option class="form_option form_option_cart" value="">Yota</option>
+                        <option class="form_option form_option_cart" value="">Ростелеком</option>
                     </select>
                 </div>
-                  <input type="text" class="modal_form__input modal_form__input-registr" placeholder="E-mail">
-                  <input type="text" class="modal_form__input modal_form__input-registr" placeholder="E-mail">
+                  <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="Номер телефона  / счета / договора">
+                  <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="Реферал (кто вас пригласил)">
                 <div class="modal_form__items">
-                    <button class="modal_form__items_btn_one">
-                        Войти
+                    <button class="modal_form__items_btn_one modal_form__items_btn_cart">
+                        Добавить платежные реквизиты
                     </button>
                 </div>
               </form>

@@ -188,7 +188,6 @@
   
   .slider:before {
     position: absolute;
-
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
@@ -205,7 +204,7 @@
     -ms-transform: translateX(0px);
     transform: translateX(0px);
     border-radius: 10px 50px 50px 10px;
-    content: 'Хочу заработать';
+    content: '';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -231,7 +230,7 @@
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
-    content: 'Я рекламодатель';
+    content: '';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -254,6 +253,50 @@
         margin-left: 50px;
     }
   }
+  .slider .checkbox-ya-feature {
+	position: relative;
+	display: block;
+	height: 100%;
+	line-height: 28px;	
+	overflow: hidden;
+}
+
+.slider .checkbox-ya-feature:before {
+	content: attr(data-label-on);
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 150ms ease-in;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.slider .checkbox-ya-feature:after {
+	content: attr(data-label-off);
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 150ms ease-in;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.slider .checkbox-ya-feature:before {
+	content: attr(data-label-on);
+	left: 5%;
+}
+.slider .checkbox-ya-feature:after {
+	content: attr(data-label-off);
+	right: 5%;
+}
+
 
   .slider_email.round_email:before {
     background: #F6CA47;
@@ -264,7 +307,7 @@
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
-    content: 'Нет';
+    content: '';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -279,7 +322,7 @@
     -ms-transform: translateX(0px);
     transform: translateX(0px);
     border-radius: 10px 50px 50px 10px;
-    content: 'Да';
+    content: '';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -288,22 +331,100 @@
     text-align-last: left;
     padding: 17px 25px;
   }
+  .yes_no {
+    position: relative;
+  }
+
+
 .modal_form__input_cart {
     position: relative;
 }
 
-  .modal_form__input_cart{
-
+.modal_form_cart > :nth-child(3){
     background-image: url(../../icons/Webmoney_modal.png);
     background-repeat: no-repeat;
     text-indent: 132px;
     background-position: 21px 18px;
   }
 
-  .modal_form__input_cart:nth-child(2) {
+  .modal_form_cart > :nth-child(4) {
 
     background-image: url(../../icons/iomoney_modal.png);
     background-repeat: no-repeat;
     text-indent: 132px;
-    background-position: 21px 18px;
+    background-position: 21px 31px;
+  }
+
+  .modal_form_cart > :nth-child(5) {
+
+    background-image: url(../../icons/Qiwi-Logo_modal.png);
+    background-repeat: no-repeat;
+    text-indent: 132px;
+    background-position: 21px 16px;
+  }
+
+  .modal_form_cart > :nth-child(6) {
+
+    background-image: url(../../icons/payeer_modal.png);
+    background-repeat: no-repeat;
+    text-indent: 132px;
+    background-position: 21px 33px;
+  }
+
+
+  .form_select_cart {
+    width: 100%;
+    padding: 26px 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba($color: #000000, $alpha: 0.5);
+    margin-bottom: 24px;
+  }
+
+  .form_option_cart {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .select_wrapper_cart::before {
+    border-bottom: 10px solid #F6CA47;
+    opacity: 1;
+    top: 33%;
+  }
+
+  .modal_form__input_cart {
+    padding: 26px 44px;
+  }
+
+  .modal_form__items_btn_cart {
+    width: 100%;
+  }
+
+  .modal_subtitle {
+    max-width: 495px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 32px;
+  }
+
+  .modal-header_cart {
+    padding: 53px 58px 0px 58px;
+    display: block;
+  }
+
+  .modal_descr p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 57px;
   }
