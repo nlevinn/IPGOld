@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>IP Gold</title>
+</head>
+<body>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Вход
+      </button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalRegistr">
+        Регистрация
+      </button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCart">
+        Реквезиты
+      </button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal_items">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Вход в личный кабинет</h5>
+          </div>
+          <div class="modal-body">
+            <div class="social_modal d-flex justify-content-between">
+                <a href="">
+                    <img src="icons/fb_modal.png" alt="">
+                </a>
+                <a href="">
+                    <img src="icons/mail.png" alt="">
+                </a>
+                <a href="">
+                    <img src="icons/yandex.png" alt="">
+                </a>
+                <a href="">
+                    <img src="icons/odn_modal.png" alt="">
+                </a>
+                <a href="">
+                    <img src="icons/inst_modal.png" alt="">
+                </a>
+                <a href="">
+                    <img src="icons/google.png" alt="">
+                </a>
+                <a href="">
+                    <img src="icons/vk.png" alt="">
+                </a>
+              </div>
+              <div class="descr_modal">
+                <p>
+                    Заполните эти поля чтобы войти в личный кабинет
+                </p>
+              </div>
+              <form action="#" class="modal_form d-flex flex-column align-items-lg-stretch">
+                <input type="text" class="modal_form__input" placeholder="Логин">
+                <input type="text" class="modal_form__input" placeholder="Пароль">
+                <div class="modal_checkbox d-flex">
+                    <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+                    <label for="styled-checkbox-1">Запомнить меня</label>
+                </div>
+                <div class="modal_form__items">
+                    <button class="modal_form__items_btn_one">
+                        Войти
+                    </button>
+                    <button class="modal_form__items_btn">
+                        Регистрация
+                    </button>
+                </div>
+                <div class="pass">
+                    <a href="">
+                        Забыли пароль
+                    </a>
+                </div>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalRegistr" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal_items">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabelREgistr">Регистрация</h5>
+          </div>
+          <div class="modal-body">
+              <form action="#" class="modal_form modal_form_registr d-flex flex-column align-items-lg-stretch">
+                <input type="text" class="modal_form__input  modal_form__input-registr" placeholder="Логин">
+                <input type="text" class="modal_form__input modal_form__input-registr" placeholder="Пароль">
+                <input type="text" class="modal_form__input modal_form__input-registr" placeholder="E-mail">
+                <div class="modal_checkbox d-flex">
+                    <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value1">
+                    <label for="styled-checkbox-2">Регистрируясь, вы принимаете нашу Оферту и даете
+                       <span>согласие на обработку персональных данных</span> </label>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                <input type="text" class="modal_form__input modal_form__input-registr" placeholder="Реферал (кто вас пригласил)">
+                <div class="modal_form__items">
+                    <button class="modal_form__items_btn_one">
+                        Войти
+                    </button>
+                    <button class="modal_form__items_btn">
+                        Регистрация
+                    </button>
+                </div>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal_items">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal_subtitle" id="exampleModalLabelCart">Разрешить получение оплачиваемых писем на ваш e-mail</h5>
+          </div>
+          <div class="modal-body">
+              <form action="#" class="modal_form modal_form_registr d-flex flex-column align-items-lg-stretch">
+                <label class="switch switch_cart">
+                    <input type="checkbox" checked>
+                    <span class="slider slider_email round round_email"></span>
+                  </label>
+                  <h5 class="modal_subtitle">Введите свои платежные реквизиты:</h5>
+                <input type="text" class="modal_form__input  modal_form__input-registr modal_form__input_cart" placeholder="WMZ кошелек">
+                <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="ЮMoney (Яндекс Деньги">
+                <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="+7 (961) 501-501-1">
+                <input type="text" class="modal_form__input modal_form__input-registr modal_form__input_cart" placeholder="Номер счета Payeer">
+                  <div class="modal_descr">
+                    <p>
+                        Изменение номера кошелька займет до 30 суток
+                    </p>
+                  </div>
+                  <h5 class="modal_subtitle" >Вывод средств напрямую на счет мобильного телефона (по желанию):</h5>
+                  <div class="select_wrapper">
+                    <select name="" id="" class="form_select" data-custom-select-class="select">
+                        <option class="form_option" value="" disabled selected hidden>Услуга</option>
+                        <option class="form_option" value="">Накрутка в Telegram</option>
+                        <option class="form_option" value="">Накрутка в Яндекс Дзен</option>
+                        <option class="form_option" value="">Накрутка в Facebook</option>
+                        <option class="form_option" value="">Накрутка в YouTube</option>
+                        <option class="form_option" value="">Накрутка в Twitter</option>
+                    </select>
+                </div>
+                  <input type="text" class="modal_form__input modal_form__input-registr" placeholder="E-mail">
+                  <input type="text" class="modal_form__input modal_form__input-registr" placeholder="E-mail">
+                <div class="modal_form__items">
+                    <button class="modal_form__items_btn_one">
+                        Войти
+                    </button>
+                </div>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>

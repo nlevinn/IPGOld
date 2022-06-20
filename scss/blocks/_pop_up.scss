@@ -1,0 +1,309 @@
+.modal-header {
+    border-bottom: none;
+}
+
+.social_modal a {
+    text-decoration: none;
+    img {
+        margin-right: auto;
+    }
+
+}
+
+.modal-content {
+    background: rgba(246, 202, 71, 0.2);
+    border-radius: 20px;
+    border: none;
+}
+
+.modal-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    text-align: center;
+}
+
+.modal-header {
+    padding-top: 38px;
+    padding-bottom: 29px;
+}
+
+.modal-body {
+    padding: 0px 63px 0px 58px;
+}
+
+.modal-header {
+    flex-direction: column;
+}
+
+.social_modal {
+    padding-left: 51px;
+    padding-right: 45px;
+}
+
+.descr_modal {
+    margin-top: 29px;
+    margin-bottom: 47px;
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        text-align: center;
+    }
+}
+
+
+.modal-dialog {
+    max-width: 689px;
+}
+.modal_form__input {
+    background: #FFFFFF;
+    border: 1px solid #F6CA47;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 568px;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+}
+
+.modal_form__input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.modal_form__input:focus-visible {
+    outline: none;
+}
+
+.modal_checkbox label{
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 14px;
+    margin-bottom: 56px;
+}
+
+.styled-checkbox+label:before {
+    background: #FFFFFF;
+    border: 1px solid #697EF9;
+    margin-right: 25px;
+}
+
+.modal_form__items {
+    &_btn {
+        border: 1px solid #F6CA47;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #08193A;
+        padding: 24px 84px;
+        &_one {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+            background: #F6CA47;
+            border: 1px solid #000000;
+            border-radius: 10px;
+            padding: 24px 84px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.pass  {
+    margin-top: 34px;
+    margin-bottom: 80px;
+    a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration-line: none;
+        color: #000000;
+        position: relative;
+    }
+}
+
+.pass a::before {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    bottom: 2px;
+}
+
+
+.modal_items {
+    background: #FFFFFF;
+    border-radius: 20px;
+    
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 64px;
+    background: #F5F5F5;
+    border: 1px solid #F6CA47;
+    border-radius: 10px;
+    margin-bottom: 38px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F5F5F5;
+    border: 1px solid #F6CA47;
+    border-radius: 10px;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background: #F5F5F5;
+  }
+  
+
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+    border-radius: 10px 50px 50px 10px;
+    content: 'Хочу заработать';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align-last: left;
+    padding: 17px 25px;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    background: #F5F5F5;
+    border: 1px solid #F6CA47;
+    border-radius: 10px;
+  }
+  
+  .slider.round:before {
+    background: #F6CA47;
+    border: 1px solid #000000;
+    border-radius: 50px 10px 10px 50px;
+    width: 285px;
+    height: 100%;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    content: 'Я рекламодатель';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: right;
+    padding: 17px 25px;
+  }
+
+  .modal_form__input-registr::placeholder {
+    text-align: left;
+  }
+
+  .modal_form_registr {
+    margin-bottom: 78px;
+  }
+
+  .modal_checkbox label  {
+    span {
+        margin-left: 50px;
+    }
+  }
+
+  .slider_email.round_email:before {
+    background: #F6CA47;
+    border: 1px solid #000000;
+    border-radius: 50px 10px 10px 50px;
+    width: 285px;
+    height: 100%;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    content: 'Нет';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: right;
+    padding: 17px 25px;
+  }
+
+  input:checked + .slider_email:before {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+    border-radius: 10px 50px 50px 10px;
+    content: 'Да';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align-last: left;
+    padding: 17px 25px;
+  }
+.modal_form__input_cart {
+    position: relative;
+}
+
+  .modal_form__input_cart{
+
+    background-image: url(../../icons/Webmoney_modal.png);
+    background-repeat: no-repeat;
+    text-indent: 132px;
+    background-position: 21px 18px;
+  }
+
+  .modal_form__input_cart:nth-child(2) {
+
+    background-image: url(../../icons/iomoney_modal.png);
+    background-repeat: no-repeat;
+    text-indent: 132px;
+    background-position: 21px 18px;
+  }
