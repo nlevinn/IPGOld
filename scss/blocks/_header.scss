@@ -1,13 +1,15 @@
-header {
+.header_one {
     background: #000000;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    display: block;
 }
 
 .header_two {
     background: #000000;
-    padding-top: 36px;
-    padding-bottom: 57px;
+    display: none;
+}
+.header_three {
+    background: #000000;
+    display: none;
 }
 
 .navbar {
@@ -16,6 +18,27 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.btn-primary:active:focus {
+    box-shadow: none;
+}
+.btn-primary:active {
+    border: 1px solid #F7D04C;
+    background: none;
+    color: #F7D04C;
+}
+
+.btn-primary:focus {
+    border: 1px solid #F7D04C;
+    background: none;
+    color: #F7D04C;
+    box-shadow: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
 
 .nav-link  {
 
@@ -82,6 +105,8 @@ li {
 
 .nav-link_submenu {
     position: relative;
+    padding-top: 33px;
+    padding-bottom: 33px;
 }
 
 
@@ -95,7 +120,7 @@ li {
     background: #F6CA47;
     border-radius: 10px;
   position: absolute;
-  top: 67px;
+  top: 98px;
   left: -47%;
   width: 426px;
   z-index: 10;
@@ -163,8 +188,8 @@ header .__item {
 
 
 .drop_down  .submenu {
-  top: 38px;
-    left: -16%;
+  top: 70px;
+    left: -9%;
     width: 81px;
   padding: 24px 0px 30px 0px;
 }
@@ -199,7 +224,7 @@ header .__item {
     position: absolute;
     z-index: 5;
     left: 50%;
-    top: 13%;
+    top: 42%;
     width: 10px;
     height: 32px;
     -webkit-transform: translate(-50%, 20px);
@@ -219,7 +244,7 @@ header .__item {
     position: absolute;
     z-index: 5;
     left: 50%;
-    top: 76%;
+    top: 58%;
     width: 10px;
     height: 32px;
     -webkit-transform: translate(-50%, 20px);
@@ -227,7 +252,7 @@ header .__item {
     opacity: 0;
     -webkit-transition: .2s;
     transition: .2s;
-    left: 88px;
+    left: 92px;
     bottom: -12px;
     border: 17px solid transparent;
     border-bottom: 24px solid #F6CA47;
@@ -253,7 +278,7 @@ header .__item {
 }
 
 .drop_down  .submenu_admin {
-    top: 62px;
+    top: 75px;
       left: -109%;
       max-width: 242px;
     padding: 30px 4px 21px 19px;
@@ -280,7 +305,7 @@ header .__item {
       position: absolute;
       z-index: 5;
       left: 50%;
-      top: 13%;
+      top: 40%;
       width: 10px;
       height: 32px;
       -webkit-transform: translate(-50%, 20px);
@@ -327,6 +352,8 @@ header .__item {
 
     .nav-link_submenu-admin {
         position: relative;
+        padding-top: 33px;
+        padding-bottom: 33px;
     }
     
     
@@ -392,8 +419,4 @@ header .__item {
     
     .header_two .nav-link_submenu .lang_arrow::before {
         left: 125%;
-    }
-
-    .header_two {
-        display: none;
     }
