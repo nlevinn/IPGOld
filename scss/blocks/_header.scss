@@ -7,6 +7,10 @@
     background: #000000;
     display: none;
 }
+
+.btn_header__phone {
+    display: none;
+}
 .header_three {
     background: #000000;
     display: none;
@@ -69,6 +73,7 @@ li {
     background: none;
     padding: 15px 39px 15px 39px;
     max-width: 180px;
+    margin-right: 4px;
 }
 
 .btn-primary:hover {
@@ -80,6 +85,8 @@ li {
 .navbar-expand-lg .navbar-nav {
     align-items: center;
 }
+
+
 
 .btn_two {
     font-style: normal;
@@ -170,7 +177,7 @@ header .__item {
 }
 
 .logo_promo {
-    max-width: 131px;
+    max-width: 158px;
 }
 
 
@@ -182,7 +189,7 @@ header .__item {
     color: #FFFFFF;
     text-decoration: none;
     img {
-        margin-right: 9px;
+        margin-right: 13px;
     }
 }
 
@@ -274,7 +281,8 @@ header .__item {
     background: url(../../icons/arrow.svg) no-repeat;
     width: 9px;
     height: 9px;
-    left: 78%;
+    left: 106%;
+    top: 48%;
 }
 
 .drop_down  .submenu_admin {
@@ -410,7 +418,8 @@ header .__item {
     }
 
     .header_margin {
-        margin-left: 3%;
+        margin-left: 20px;
+        margin-right: -26px;
     }
 
     .header_btn__margin {
@@ -419,4 +428,16 @@ header .__item {
     
     .header_two .nav-link_submenu .lang_arrow::before {
         left: 125%;
+    }
+
+    .nav-ul_submenu .__item {
+        margin-right: -4px;
+    }
+
+    .nav-link_submenu {
+        margin-right: 13px;
+    }
+    .nav-link_submenu_two {
+        margin-right: 0px;
+        margin-left: 19px;
     }

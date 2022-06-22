@@ -15,15 +15,15 @@
 .promo__wrapper::before {
     content: '';
     position: absolute;
-    background-image: -webkit-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
-    background-image: -moz-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
-    background-image: -ms-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
-    background-image: repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    background-image: -webkit-repeating-radial-gradient(center center, #FF992B, #FF992B 5px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #FF992B, #FF992B 5px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #FF992B, #FF992B 5px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, #FF992B, #FF992B 5px, transparent 1px, transparent 100%);
     -webkit-background-size: 3px 3px;
     -moz-background-size: 3px 3px;
-    background-size: 16px 15px;
-    width:130px;
-    height: 98px;
+    background-size: 20px 18px;
+    width: 158px;
+    height: 117px;
     bottom: 0px;
     left: 5%;
 }
@@ -31,15 +31,15 @@
 .promo__wrapper::after {
     content: '';
     position: absolute;
-    background-image: -webkit-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
-    background-image: -moz-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
-    background-image: -ms-repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
-    background-image: repeating-radial-gradient(center center, #FF992B, #FF992B 4px, transparent 1px, transparent 100%);
+    background-image: -webkit-repeating-radial-gradient(center center, #FF992B, #FF992B 5px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #FF992B, #FF992B 5px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #FF992B, #FF992B 5px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, #FF992B, #FF992B 5px, transparent 1px, transparent 100%);
     -webkit-background-size: 3px 3px;
     -moz-background-size: 3px 3px;
-    background-size: 16px 15px;
-    width:63px;
-    height: 62px;
+    background-size: 20px 17px;
+    width: 75px;
+    height: 70px;
     top: 3px;
     right: 5px;
 }
@@ -49,8 +49,9 @@
 }
 
 .video_promo {
-    max-width: 462px;
+    max-width: 478px;
     border-radius: 7px;
+    margin-left: 4px;
 }
 
 .wrapper .title {
