@@ -428,3 +428,7 @@
     color: #000000;
     margin-bottom: 57px;
   }
+
+  .styled-checkbox+.reviews_checkbox:before {
+    border: 1px solid #F6CA47;
+  }

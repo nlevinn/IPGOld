@@ -1,12 +1,17 @@
 .blog .card {
     border: none;
-    margin-top: 40px;
-    margin-bottom: 61px;
+    margin-bottom: 26px;
+}
+
+.special__title__blog {
+    h2 {
+        font-size: 33px;
+    }
 }
 
 .blog {
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 27px;
+    padding-bottom: 104px;
 }
 
 .blog .card .card-body {
@@ -24,7 +29,7 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-    margin-top: 28px;
+    margin-top: 5px;
 }
 
 .blog .card .card-body .card-text {
@@ -50,7 +55,7 @@
     border-radius: 7px;
     padding: 17px 93px;
     max-width: 278px;
-    margin-top: 20px;
+    margin-top: 6px;
 }
 
 
@@ -66,28 +71,24 @@
     border-radius: 3px;
     background: none;
     position: relative;
+    margin-top: 24px;
+    padding-top: 19px;
 }
 
 
-.blog_btn::before {
-    content: '';
-    position: absolute;
-    width: 22px;
-    border: 2px #4A4D61 solid;
-    left: 39.2%;
-}
 
 .blog_btn::after {
-    content: '';
+    content: '+';
     position: absolute;
     width: 27px;
     height: 21px;
-    border-right: 4px #4A4D61 solid;
+    font-size: 44px;
     left: 38%;
+    top: 25%;
 }
 
 .btn__item {
-    margin-top: 36px;
+    margin-top: 30px;
     margin-bottom: 57px;
 }
 
@@ -101,7 +102,7 @@
     border-radius: 50px;
     cursor: pointer;
     border: none;
-    margin-right: 20px;
+    margin-right: 17px;
 }
 
 .btn__item_blog:nth-child(1) {

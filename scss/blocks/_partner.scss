@@ -9,7 +9,7 @@
             line-height: 42px;
             text-align: center;
             color: #08193A;
-            margin-bottom: 30px;
+            margin-bottom: 33px;
         }
     }
     &_descr {
@@ -20,7 +20,7 @@
             line-height: 22px;
             text-align: justify;
             color: #000000;
-            margin-bottom: 40px;
+            margin-bottom: 48px;
             span {
                 font-weight: 700;
             }
@@ -49,9 +49,39 @@
         border: 1px solid #000000;
         border-radius: 7px;
         padding: 19px 28px;
-        margin-top: 18px;
+        margin-top: 11px;
     }
     &_item {
         margin-bottom: 76px;
     }
+}
+
+.partner_descr p:nth-child(4) {
+    margin-bottom: 38px;
+}
+
+.partner_descr p:nth-child(5) {
+    margin-bottom: 49px;
+}
+
+
+.btn_cart_partner {
+    margin-top: -2px;
+}
+
+.partner_title__reviews {
+    h1 {
+        text-align: left;
+        margin-bottom: 51px;
+    }
+  }
+
+
+  .reviews{
+    padding-top: 43px;
+  }
+
+  .reviews__promo {
+    padding-bottom: 150px;
+    padding-top: 0px;
 }

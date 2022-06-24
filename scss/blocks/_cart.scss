@@ -1,6 +1,6 @@
 .cart {
     background: rgba(217, 217, 217, 0.1);
-    padding-top: 26px;
+    padding-top: 40px;
     padding-bottom: 60px;
 }
 
@@ -13,7 +13,7 @@
     align-items: center;
     flex-direction: column;
     max-width: 276px;
-    padding: 19px 18px 36px 18px;
+    padding: 20px 18px 36px 21px;
     margin-bottom: 30px;
 }
 
@@ -28,8 +28,9 @@
 }
 
 .cart .wrapper .__item:nth-child(1)  {
+    padding: 25px 18px 36px 18px;
     .cart_img {
-        margin-bottom: 39px;
+        margin-bottom: 34px;
         img {
             background: #F4F4F4;  
             padding: 8px;
@@ -39,8 +40,9 @@
 }
 
 .cart .wrapper .__item:nth-child(2)  {
+    padding: 25px 18px 36px 18px;
     .cart_img {
-        margin-bottom: 39px;
+        margin-bottom: 33px;
         img {
             background: #F4F4F4;  
             padding: 8px;
@@ -49,26 +51,174 @@
     }
 }
 .cart .wrapper .__item:nth-child(3)  {
+    padding: 29px 18px 36px 18px;
     .cart_img {
-        margin-bottom: 39px;
+        margin-bottom: 26px;
         img {
             background: #F4F4F4;  
             padding: 5px;
             border-radius: 5px;
         }
     }
+    h3 {
+        margin-left: -13px;
+    }
+    .btn_cart {
+        margin-top: 35px;
+    }
 }
 .cart .wrapper .__item:nth-child(4)  {
+    padding: 22px 10px 36px 11px;
     .cart_img {
-        margin-bottom: 39px;
+        margin-bottom: 36px;
         img {
             background: #F4F4F4;  
             padding: 12px;
             border-radius: 5px;
         }
     }
+    h3 {
+        max-width: 250px;
+    }
+    p {
+        margin-left: 40px;
+    }
+    .btn_cart {
+        margin-top: 31px;
+    }
 }
 
+.cart .wrapper .__item:nth-child(5)  {
+    max-width: 279px;
+    padding: 20px 18px 36px 21px;
+    .cart_img {
+        margin-bottom: 37px;
+    }
+    h3 {
+        max-width: 250px;
+        margin-right: 4px;
+        margin-bottom: 40px;
+    }
+    p {
+        margin-left: 52px;
+    }
+    .btn_cart {
+        margin-top: 22px;
+    }
+}
+.cart .wrapper .__item:nth-child(6)  {
+    max-width: 275px;
+    padding: 20px 22px 36px 18px;
+    .cart_img {
+        margin-bottom: 34px;
+    }
+    h3 {
+        max-width: 210px;
+        margin-right: 12px;
+        margin-bottom: 40px;
+    }
+    p {
+        margin-left: 32px;
+    }
+    .btn_cart {
+        margin-top: 25px;
+    }
+}
+.cart .wrapper .__item:nth-child(7)  {
+
+
+    p {
+        margin-left: 42px;
+    }
+    .btn_cart {
+        margin-top: 18px;
+    }
+}
+.cart .wrapper .__item:nth-child(8)  {
+    padding: 20px 18px 36px 18px;
+    .cart_img {
+        margin-bottom: 32px;
+    }
+    h3 {
+        max-width: 210px;
+        margin-right: 3px;
+        margin-bottom: 43px;
+    }
+    p {
+        margin-left: 40px;
+    }
+    .btn_cart {
+        margin-top: 34px;
+    }
+}
+.cart .wrapper .__item:nth-child(9)  {
+    padding: 19px 18px 36px 18px;
+    .cart_img {
+        margin-bottom: 32px;
+    }
+    h3 {
+        max-width: 210px;
+        margin-right: 12px;
+        margin-bottom: 43px;
+    }
+    p {
+        margin-left: 27px;
+    }
+    .btn_cart {
+        margin-top: 35px;
+    }
+}
+.cart .wrapper .__item:nth-child(10)  {
+    padding: 20px 18px 36px 18px;
+    .cart_img {
+        margin-bottom: 36px;
+    }
+    h3 {
+        max-width: 210px;
+        margin-right: 3px;
+        margin-bottom: 39px;
+    }
+    p {
+        margin-left: 40px;
+    }
+    .btn_cart {
+        margin-top: 34px;
+    }
+}
+.cart .wrapper .__item:nth-child(11)  {
+    padding: 18px 18px 36px 18px;
+    .cart_img {
+        margin-bottom: 34px;
+    }
+    h3 {
+        max-width: 210px;
+        margin-right: -1px;
+        margin-bottom: 46px;
+    }
+    p {
+        margin-left: 43px;
+    }
+    .btn_cart {
+        margin-top: 21px;
+    }
+}
+.cart .wrapper .__item:nth-child(12)  {
+    padding: 20px 18px 36px 18px;
+    .cart_img {
+        margin-bottom: 32px;
+    }
+    h3 {
+        max-width: 210px;
+        margin-right: 3px;
+        margin-bottom: 43px;
+    }
+    p {
+        margin-left: 40px;
+    }
+    .btn_cart {
+        margin-top: 34px;
+    }
+}
 .cart .wrapper .__item h3{
     font-family: 'Commissioner';
     font-style: normal;
@@ -89,6 +239,9 @@
     line-height: 18px;
     color: #000000;
     margin-bottom: 33px;
+    float: left;
+    width: 100%;
+    margin-left: 32px;
 }
 
 .btn_cart {

@@ -24,16 +24,47 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 7px;
     max-width: 277px;
-    padding: 20px 19px 7px 32px;
+    padding: 16px 33px 22px 32px;
     position: relative;
     cursor: pointer;
 }
 
+.special__item:nth-child(2) {
+    padding: 17px 20px 22px 32px;
+    h4 {
+        margin-top: 32px;
+    }
+    p {
+        margin-top: 15px;
+        line-height: 15px;
+    }
+}
+
+.special__item:nth-child(3) {
+    padding: 27px 17px 22px 32px;
+    h4 {
+        margin-top: 22px;
+    }
+    p {
+        margin-top: 15px;
+        line-height: 15px;
+    }
+}
+.special__item:nth-child(4) {
+    padding: 25px 20px 22px 32px;
+    h4 {
+        margin-top: 24px;
+    }
+    p {
+        margin-top: 15px;
+        line-height: 15px;
+    }
+}
 .special__item:hover p {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 12px;
+    line-height: 15px;
     color: #000000;
     transition:.5s linear;
 }
@@ -258,7 +289,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #000000;
-    margin-top: 28px;
+    margin-top: 33px;
     position: relative;
     z-index: 1;
 }
@@ -267,13 +298,14 @@
     font-family: 'Commissioner';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 12px;
+    line-height: 15px;
     color: #A0A0A0;
-    margin-top: 17px;
+    margin-top: 18px;
     position: relative;
     z-index: 1;
     margin-bottom: 0px;
+    text-align: justify;
 }
 
 .special_icons img {
