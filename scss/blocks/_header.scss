@@ -193,6 +193,46 @@ header .__item {
     }
 }
 
+.user_name span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F6CA47;
+    margin-right: 17px;
+}
+.notification-count span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    background: #FFFFFF;
+    width: 15px;
+    border-radius: 50%;
+    padding: 1px 4px 2px 4px;
+}
+
+.icon_notification {
+    position: relative;
+    width: 17px;
+}
+.accordion-button_notification{
+    margin-left: 0px;
+}
+
+.user_notification {
+    max-width: 102px;
+    margin-right: 17px;
+}
+
+.notification-count {
+    position: absolute;
+    top: 11px;
+    right: -7px;
+}
+
+
 
 .drop_down  .submenu {
   top: 70px;

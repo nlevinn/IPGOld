@@ -19,7 +19,7 @@
 }
 
 
-.reviews .__item .__descr {
+.reviews .__item .__descr p{
     font-family: 'Commissioner';
     font-style: normal;
     font-weight: 400;
@@ -57,7 +57,7 @@
 
 .stars__reviews {
     img {
-        margin-top: -25px;
+        margin-top: -10px;
     }
 }
 
@@ -173,7 +173,7 @@
             font-weight: 400;
             font-size: 20px;
             line-height: 24px;
-            color: #000000;
+            color: rgba(0, 0, 0, 0.6);
             margin-bottom: 0px;
             margin-left: 25px;
         }
@@ -185,7 +185,7 @@
         }
         &_checkbox {
             margin-top: 145px;
-            margin-left: 43px;
+            margin-left: 25px;
         }
     }
 }
@@ -301,6 +301,7 @@ input[type="checkbox" i] {
   .rating_block{
     float: left;
     max-width: 94%;
+    margin-left: 27px;
   }
   .label_rating {
     float: right;

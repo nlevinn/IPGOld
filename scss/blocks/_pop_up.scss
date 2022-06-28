@@ -417,7 +417,7 @@
 
   .modal-header_cart {
     padding: 53px 58px 0px 58px;
-    display: block;
+    align-items:flex-start ;
   }
 
   .modal_descr p {
@@ -436,3 +436,24 @@
   .modal_checkbox {
     margin-right: auto;
   }
+  .modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -24px 0px -0.5rem auto;
+    opacity: 1;
+}
+
+.modal-header .btn-close_two {
+  margin: -26px -28px -0.5rem auto;
+}
+
+.btn-close:focus {
+  outline: 0;
+  box-shadow: none;
+  opacity: 1;
+}
+.accordion-button_notification::after {
+  display: none;
+}
+.modal_form__input_centre {
+  text-align: center;
+}

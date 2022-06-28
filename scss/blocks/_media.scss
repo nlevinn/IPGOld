@@ -1,9 +1,20 @@
 @media (min-width: 1024px) and (max-width: 1230px) {
+    .container {
+        max-width: 960px;
+    }
     .label_rating {
         margin-right: 13px;
     }
     .main_next_two:after {
     left: 120%;
+    }
+    .navbar {
+        max-width: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .btn-primary {
+        margin-left: auto;
     }
     .reviews__wrapper__form {
         max-width: 436px;
@@ -18,7 +29,8 @@
         display: none;
     }
     .blog .card .card-body .btn {
-        padding: 17px 92px;
+        padding: 17px 82px;
+        border-color: #000000;
     }
     .input_wrapper {
         width: 100%;
@@ -350,7 +362,7 @@ left: 8px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
     background: none;
@@ -484,13 +496,69 @@ left: 8px;
     position: relative;
 }
 
+.accordion-button_notification{
+    margin-left: 0px;
+}
+.accordion-button_notification:focus {
+    background: none;
+}
+.accordion-button_notification::before {
+    display: none;
+}
+.accordion-button_notification::after {
+    display: none;
+}
+.accordion-button {
+    transition: none;
+}
 
-
+.accordion-collapse_notification {
+    position: absolute;
+    background: #000000;
+    border-radius: 7px;
+    right: 11%;
+    width: 173px;
+    z-index: 1;
+    top: 14%;
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+    }
+}
+.accordion-body_notification {
+    background: #000000;
+    border-radius: 7px;
+}
+.accordion-button_notification {
+    font-size: 0px;
+    line-height: 0%;
+}
+.accordion-button_notification:focus {
+    font-size: 0px;
+    line-height: 0%;
+    border: none;
+}
+.accordion-button_notification:not(.collapsed) {
+    font-size: 0px;
+    line-height: 0%;
+    border: none;
+}
 
 }
 
 
 @media (max-width: 1024px){
+
+    .btn-primary {
+        margin-left: auto;
+    }
+    .btn-primary:focus-visible {
+        outline: none;
+    }
     .btn-primary {
         margin-right: 20px;
     }
@@ -655,6 +723,15 @@ left: 8px;
     .header_three {
         display: block;
     }
+    .reviews .__item {
+        max-width: 49%;
+    }
+    .footer_margin {
+        padding-right: 0px;
+    }
+    .footer_item {
+        margin-right: 0px;
+    }
     .reviews .__item .__descr {
         font-weight: 400;
         font-size: 12px;
@@ -719,6 +796,8 @@ left: 8px;
     }
     .blog .card .card-body .btn {
         padding: 17px 50px;
+        border-color: #000000;
+        margin-right: 0px;
     }
     .header_one {
         display: none;
@@ -1108,6 +1187,14 @@ left: 8px;
 .modal_form__input {
     width: 100%;
 }
+.navbar {
+    max-width: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.btn_header__phone {
+    margin-left: auto;
+}
 .header_phone {
     position: absolute;
     background: #000000;
@@ -1117,7 +1204,7 @@ left: 8px;
     padding-bottom: 65px;
     right: 0px;
     width: 506px;
-    transition: .5s linear;
+    transition: .1s linear;
 }
 .nav-link_submenu {
     padding-bottom: 0px;
@@ -1125,6 +1212,7 @@ left: 8px;
 }
 .header_btn__margin {
     margin-right: 0px;
+    padding-right: 0px;
 }
 .header_position {
     position: relative;
@@ -1140,7 +1228,7 @@ left: 8px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
     background: none;
@@ -1252,19 +1340,54 @@ left: 8px;
     position: relative;
     margin-left: 30px;
 }
-
-
+.reviews .__item_two {
+    max-width: 100%;
+}
+.accordion-button_notification{
+    margin-left: 0px;
+}
+.accordion-button_notification:focus {
+    background: none;
+}
+.accordion-button_notification::before {
+    display: none;
+}
 
 }
 @media (max-width:992px) {
+    .partner_btn {
+        font-size: 12px;
+        width: 100%;
+    }
+    .partner {
+        padding-bottom: 70px;
+        padding-top: 30px;
+    }
+    .partner_subtitle {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+    }
     .styled-checkbox+.reviews_checkbox:before {
         border: 1px solid #F6CA47;
     }
     .btn_cart {
         margin: 0 auto;
     }
+    .partner_item {
+        margin-bottom: 56px;
+    }
+    .partner_subtitle h2 {
+        text-align: left;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
     .partner_btn {
-        padding: 19px 10px;
+        padding: 12px 13px;
     }
     .blog_btn::after {
         left: 37.7%;
@@ -1296,8 +1419,7 @@ left: 8px;
     }
 
     .wrapper .__descr p {
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 100%;
     }
     .cart .wrapper .__item:nth-child(1) {
         max-width: 170px;
@@ -1509,15 +1631,67 @@ left: 8px;
             font-size: 12px;
             margin-left: 0px;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 21px;
         }
         .btn_cart {
             margin-top: 0px;
         }
     }
+    .cart .wrapper .__item_two:nth-child(2) p {
+        margin-bottom: 30px;
+    }
+    .cart .wrapper .__item_two:nth-child(1) p {
+        margin-bottom: 30px;
+    }
+    .cart .wrapper .__item_two:nth-child(1) .cart_img {
+        margin-bottom: 10px;
+    }
+    .cart .wrapper .__item_two:nth-child(2) .cart_img {
+        margin-bottom: 10px;
+    }
+    .cart .wrapper .__item_two:nth-child(3) .cart_img {
+        margin-bottom: 10px;
+    }
+    .cart .wrapper .__item_two:nth-child(4) .cart_img {
+        margin-bottom: 10px;
+    }
+    .cart .wrapper .__item_two:nth-child(1) p{
+        margin-bottom: 20px;
+    }
+    .cart .wrapper .__item_two:nth-child(2) p{
+        margin-bottom: 20px;
+    }
+    .cart .wrapper .__item_two:nth-child(1) p:last-child{
+        margin-bottom: 30px;
+    }
+    .cart .wrapper .__item_two:nth-child(2) p:last-child{
+        margin-bottom: 30px;
+    }
+    .cart .wrapper .__item_two:nth-child(3) p{
+        margin-bottom: 20px;
+    }
+    .cart .wrapper .__item_two:nth-child(4) p{
+        margin-bottom: 20px;
+    }
+    .cart .wrapper .__item_two:nth-child(2) h3 {
+        margin-bottom: 40px;
+    }
+    .cart .wrapper .__item_two:nth-child(1) h3 {
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 768px) {
+    .reviews .__item {
+        max-width: 100%;
+    }
+    .reviews .__item .__descr p {
+        font-size: 12px;
+    }
+    .partner_btn {
+        font-size: 12px;
+        padding: 12px 50px;
+    }
     .btn-primary {
         padding: 10px 8px 9px 5px;
         font-size: 12px;
@@ -1570,8 +1744,11 @@ left: 8px;
         width: 53%;
     }
     .reviews__wrapper__form_btn {
-        font-size: 16px;
+        font-size: 18px;
         padding: 15px 33px;
+    }
+    .reviews__next {
+        display: none;
     }
     .btn__item_blog {
         margin-right: 19px;
@@ -1678,10 +1855,53 @@ left: 8px;
     .cart .wrapper .__item_two:nth-child(4) {
         max-width: 49%;
     }
-
+    .cart .wrapper .__item_two:nth-child(4) .cart_img {
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 576px) {
+    .styled-checkbox:checked+label:after {
+        content: '';
+        position: absolute;
+        left: 5px;
+        top: 14px;
+        background: black;
+        width: 2px;
+        height: 2px;
+        -webkit-box-shadow: 2px 0 0 black, 4px 0 0 black, 4px -2px 0 black, 4px -4px 0 black, 4px -6px 0 black, 4px -8px 0 black;
+        box-shadow: -2px 0 0 black, -3px 0 0 black, 0px -2px 0 black, 0px -4px 0 black, 0px -6px 0 black, 0px -8px 0 black;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .reviews .__item .__descr p {
+        font-size: 12px;
+    }
+    .reviews .__item {
+        max-width: 100%;
+    }
+    .modal_checkbox label {
+        margin-bottom: 22px;
+    }
+    .descr_modal {
+        margin-bottom: 22px;
+    }
+    .modal-dialog {
+        max-width: 354px;
+        margin: 0.5em auto;
+    }
+    .social_modal a {
+        margin-right: 9px;
+    }
+    .offer__descr {
+        margin-left: 15px;
+    }
+    .offer__title h1 {
+        margin-bottom: 0px;
+    }
+    .offer {
+        padding-top: 25px;
+    }
     .btn_cart {
         padding-top: 11px;
         padding-bottom: 11px;
@@ -1765,7 +1985,7 @@ left: 8px;
         font-size: 12px;
     }
     .modal-body {
-        padding: 0px 12px 0px 12px;
+        padding: 0px 11px 0px 11px;
     }
     .modal_form__input {
         padding: 17px 20px;
@@ -1775,9 +1995,15 @@ left: 8px;
     }
     .modal_form__items_btn {
         font-size: 15px;
+        padding: 14px 84px;
     }
     .modal_form__items_btn_one {
         font-size: 15px;
+        padding: 14px 84px;
+    }
+    .pass {
+        margin-top: 22px;
+        margin-bottom: 24px;
     }
     .modal_form__input::placeholder {
         font-size: 12px;
@@ -1840,6 +2066,9 @@ left: 8px;
         padding: 11px 14px;
         font-size: 12px;
         line-height: 15px;
+    }
+    .wrapper_descr .__descr ul li::before {
+        top: 6px;
     }
     .cart .wrapper .__item:nth-child(2) {
         h3 {
@@ -1914,6 +2143,12 @@ left: 8px;
         margin-right: 0px;
         
     }
+    .rating_block {
+        margin-left: 0px;
+    }
+    .reviews__wrapper__item p {
+        margin-left: 0px;
+    }
     .reviews__wrapper__item_checkbox {
         width: 100%;
         margin-left: 0px;
@@ -1964,7 +2199,7 @@ left: 8px;
         display: none;
     }
     .partner_btn {
-        padding: 19px 5px;
+        padding: 12px 11px;
         font-size: 12px;
         line-height: 15px;
         width: 100%;
@@ -1972,18 +2207,40 @@ left: 8px;
     .blog_btn::after {
         left: 33.5%;
         font-size: 25px;
-        top: 33%;
+        top: 25%;
+    }
+    .btn__item {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .reviews .__item_two .__descr p {
+        font-size: 12px;
+    }
+    .reviews .__item_two {
+        margin-bottom: 36px;
+    }
+    .reviews {
+        padding-bottom: 33px;
+    }
+    .reviews .__item_two .name p:last-child {
+        margin-bottom: 35px;
+        margin-top: 17px;
+    }
+    .special__title h2 {
+        font-size: 18px;
     }
     .btn_header__phone {
         background: #2D2D2D;
         border-radius: 7px;
         outline: none;
         padding: 6px 10px;
-        display: block;
+        display: flex;
         border: none;
         width: 40px;
         height: 40px;
         margin-right: 10px;
+        justify-content: center;
+        align-items: center;
     }
     .video_promo {
         width: 90%;
@@ -2077,6 +2334,26 @@ left: 8px;
     }
     .blog_news .card:nth-child(3) {
         display: block;
+    }
+    .cart .wrapper .__item_two:nth-child(2) h3 {
+        margin-bottom: 20px;
+    }
+    .promo__descr_next .wrapper .__descr:first-child p:first-child {
+        margin-bottom: 15px;
+    }
+    .promo__descr_next .wrapper .__descr:last-child p:first-child {
+        margin-bottom: 15px;
+    }
+    .next_title__inst {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .next_title h2 {
+        margin-bottom: 16px;
+        font-size: 15px;
+    }
+    .wrapper_descr__inst {
+        margin-bottom: 39px;
     }
 }
 
