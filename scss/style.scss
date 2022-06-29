@@ -8,7 +8,7 @@
 }
 
 img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 header {
@@ -19,6 +19,8 @@ header {
 body {
     font-family: 'Commissioner', sans-serif !important;
     
+    font-display: auto;
+
   }
 
 @import 'blocks/header';

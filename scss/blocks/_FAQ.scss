@@ -59,6 +59,7 @@ button:focus:not(:focus-visible) {
     border: 2px #000000 solid;
     transition: transform .2s ease-in-out;
     background-image: none;
+    background: #000000;
 }
 
 .accordion-button::before {

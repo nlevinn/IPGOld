@@ -103,6 +103,11 @@
     cursor: pointer;
     border: none;
     margin-right: 17px;
+    text-decoration: none;
+}
+
+.btn__item_blog:hover {
+    color: #FFFFFF;
 }
 
 .btn__item_blog:nth-child(1) {
@@ -132,4 +137,9 @@
 
 .blog .card .card-body .btn_next_blog {
     border: 1px solid #F6CA47;
+}
+
+.blog .card .card-body .btn_next_blog:hover {
+    background: #F6CA47;
+    color: #000000;
 }

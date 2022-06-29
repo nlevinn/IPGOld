@@ -84,3 +84,11 @@
 .promo__descr_next {
     padding-top: 54px;
 }
+
+.main_a_next {
+    display: flex;
+    flex-direction: column;
+    a {
+        margin-bottom: 40px;
+    }
+}

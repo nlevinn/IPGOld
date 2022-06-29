@@ -48,8 +48,11 @@
         background: rgba($color: #F6CA47, $alpha: 0.8);
         border: 1px solid #000000;
         border-radius: 7px;
-        padding: 19px 28px;
+        padding: 19px 27px;
         margin-top: 11px;
+    }
+    &_btn:hover {
+        background: none;
     }
     &_item {
         margin-bottom: 76px;

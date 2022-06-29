@@ -72,41 +72,40 @@
 .main_next:before {
     content: '';
     position: absolute;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    width: 12px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    width: 14px;
+    height: 2px;
     top: 53%;
     left: 108%;
 }
 .main_next_two:before {
     content: '';
     position: absolute;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    width: 12px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    width: 14px;
     top: 53%;
     left: 108%;
 }
 
 .main_next::after {
-    border-right: 2px solid currentcolor;
-    border-bottom: 2px solid currentcolor;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     content: '';
     position: absolute;
     width: 6px;
     height: 6px;
-    color: rgba(0,0,0,0.2);
     bottom: 27%;
     left: 114%;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 .main_next_two::after {
-    border-right: 2px solid currentcolor;
-    border-bottom: 2px solid currentcolor;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     content: '';
     position: absolute;
     width: 6px;
     height: 6px;
-    color: rgba(0,0,0,0.2);
     bottom: 27%;
     left: 114%;
     -webkit-transform: rotate(-45deg);
