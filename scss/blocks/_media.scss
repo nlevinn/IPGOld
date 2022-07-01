@@ -6,7 +6,7 @@
         display: none;
     }
     .navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link {
-        margin-top: 0px;
+        margin-top: 13px;
     }
     .header_all {
         .header_one {
@@ -434,7 +434,7 @@ left: 8px;
 .nav-link {
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 17px;
     color: #FFFFFF;
     text-decoration: none;
@@ -557,9 +557,7 @@ left: 8px;
     line-height: 0%;
     border: none;
 }
-.navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link {
-    margin-top: 0px;
-}
+
 
 }
 
@@ -568,6 +566,7 @@ left: 8px;
     .btn-primary_none_two {
         display: none;
     }
+
     .header_btn__margin {
         display: none;
     }
@@ -1260,10 +1259,7 @@ left: 8px;
     padding: 20px 0 20px 30px;
     width: 100%;
 }
-.navbar-expand-lg .navbar-nav .nav-link {
-    margin-top: 40px;
-    margin-left: 30px;
-}
+
 .navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link {
     padding-left: 1em;
 }
@@ -1401,9 +1397,34 @@ left: 8px;
 .accordion-button_notification::before {
     display: none;
 }
+.btn-primary_none {
+    font-size: 14px;
+    padding: 15px;
+    display: block;
+}
 
 }
 @media (max-width:992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:nth-child(1) .nav-link {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:nth-child(2) .nav-link {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:nth-child(3) .nav-link {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:nth-child(4) .nav-link {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
     .__item-admin {
         display: none;
     }
@@ -2055,6 +2076,18 @@ left: 8px;
             margin-bottom: 0px;
         }
         .navbar-expand-lg .navbar-nav .nav-link {
+            margin-left: 16px;
+        }
+        .navbar-expand-lg .navbar-nav .nav-item:nth-child(1) .nav-link {
+            margin-left: 16px;
+        }
+        .navbar-expand-lg .navbar-nav .nav-item:nth-child(2) .nav-link {
+            margin-left: 16px;
+        }
+        .navbar-expand-lg .navbar-nav .nav-item:nth-child(3) .nav-link {
+            margin-left: 16px;
+        }
+        .navbar-expand-lg .navbar-nav .nav-item:nth-child(4) .nav-link {
             margin-left: 16px;
         }
         .drop_down .__item_two {
