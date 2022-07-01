@@ -14,6 +14,9 @@ footer {
     margin-right: 26px;
     margin-bottom: 19px;
 }
+.icon_social ._item a:hover {
+    opacity: 0.8;
+}
 
 .download {
     margin-top: 37px;
@@ -67,6 +70,9 @@ footer {
     color: #000000;
     text-decoration: none;
 }
+.nav .wrapper ._item a:hover {
+    text-decoration: underline;
+}
 
 .nav .wrapper ._item {
     margin-bottom: 5px;
@@ -104,6 +110,10 @@ footer {
         margin-right: 9px;
         margin-bottom: 17px;
     }
+}
+
+.footer .wrapper ._items img:hover {
+    opacity: 0.5;
 }
 
 .footer .wrapper ._items img:nth-child(4){
